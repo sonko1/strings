@@ -27,25 +27,27 @@ print(a.upper())
 print(b)
 #The lower() method returns the string in lower case:
 print(n.lower())
-#Python String center() Method
+#The center() method will center align the string, using a specified character (space is default) as the fill character.
+
 txt = "Gabriel"
 
 x = txt.center(20)
 
 print(x)
-#Python String count() Method
+#The count() method returns the number of times a specified value appears in the string.
+
 txt = "I love apples, apple are my favorite fruit"
 
 x = txt.count("apple")
 
 print(x)
-#Python String endswith() Method
+#Python String endswith() Method to Check if the string ends with a punctuation sign (.):
 txt = "Hello, welcome to my world."
 
 x = txt.endswith(".")
 
 print(x)
-#Python String index() Method
+#Idex method finding the first occurrence of the specified value.
 txt = "Hello, welcome to my world."
 
 x = txt.index("welcome")
